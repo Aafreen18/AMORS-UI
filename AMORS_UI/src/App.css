@@ -1,42 +1,93 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.navbar-transparent {
+    background-color: transparent !important;
+    position: relative;
   }
-  to {
-    transform: rotate(360deg);
-  }
+  
+
+nav{
+    position: relative;
+    z-index: 2;
+    background-color: transparent !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.nav-link.menu-active{
+    background-color: darkblue;
+    border-radius: 5px;
 }
 
-.card {
-  padding: 2em;
+.circle{
+    z-index: 1 !important;
+    /* position: absolute !important; */
 }
 
-.read-the-docs {
-  color: #888;
+@media (max-width: 600px) {
+    .first-circle {
+        display: none !important;
+    }
 }
+
+
+.container1, .container2 {
+    width: 70px; 
+    height: 70px; 
+}
+
+.container1{
+    margin-left: 67%;
+    display: flex;
+    position: relative;
+}
+
+.container2{
+    margin-left: 50%;
+    display: flex;
+    position: relative;
+}
+
+
+.star1{
+    position: absolute;
+    color:#080f47;
+    left:2px;
+    font-size: 24px;
+}
+
+.star2{
+    position: absolute;
+    color:black;
+    left:15px;
+    font-size: 24px;
+}
+
+.home-section{
+    z-index: 1;
+    /* position: relative !important; */
+}
+
+.home-section h1{
+    font-family: "Playfair Display", serif;
+    font-size: 4rem;
+    word-spacing: 2px;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.home-section button{
+    z-index: 2;
+    margin-top: 10%;
+
+}
+
+.home-section button:hover{
+    background-color: darkblue !important;
+    pointer-events: stroke;
+}
+
