@@ -4,7 +4,7 @@ import Star from "./Star";
 import { useNavigate } from "react-router-dom";
 import myImage from "../assets/Face.png";
 import LearnMore from "./LearnMore";
-
+import TalkUs from "./TalkUs";
 
 const Landing = () => {
   const navigate = useNavigate();
@@ -38,6 +38,7 @@ const Landing = () => {
             </div>
                 
             <LearnMore />
+            <TalkUs />
         </>
     );
 }

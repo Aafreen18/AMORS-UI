@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 
 *{
     margin: 0;
@@ -83,7 +87,6 @@ nav{
 .home-section button{
     z-index: 2;
     margin-top: 10%;
-
 }
 
 .home-section button:hover{
@@ -93,4 +96,57 @@ nav{
 
 .why-section{
     background: linear-gradient(to right, black, darkblue);
+    width:100vw;
 }
+
+.Talk-heading{
+    font-family: "Playfair Display", serif;
+}
+
+.AMORS{
+    font-size: 3em;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 5px #fff, 
+        0 0 10px #fff, 
+        0 0 15px #050A30, 
+        0 0 20px #050A30, 
+        0 0 25px #fff, 
+        0 0 30px #050A30;
+}
+
+.aboutUsFont{
+    font-family: "Agdasima", sans-serif;
+    font-weight:bolder !important;
+    font-style: normal;
+    color: white;
+
+    text-shadow: 0 0 5px #fff, 
+        0 0 10px #fff, 
+        0 0 15px #fff, 
+        0 0 20px #1e1e1e, 
+        0 0 25px #232222, 
+        0 0 30px #181717;
+}
+
+.aboutInfoFont{
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-style: normal;
+    width: 70%;
+    color: rgb(207, 211, 213);    
+}
+
+.gradient-button {
+    background: linear-gradient(blue, purple);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+
+

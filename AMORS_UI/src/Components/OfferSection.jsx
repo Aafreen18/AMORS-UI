@@ -2,6 +2,9 @@ import React from "react";
 import Attendence_img from "../assets/Attendence2.jpg";
 import software_img from "../assets/Software.jpg";
 import optical_img from "../assets/Optical.jpg";
+import Net1 from "../assets/Net11.png";
+import Net2 from "../assets/Net22 (2).png";
+import Net3 from "../assets/Net33.png";
 import Description from "./Description";
 
 const OfferSection = () => {
@@ -69,7 +72,7 @@ const OfferSection = () => {
                 <div className="row g-5 p-5 " style={{backgroundColor:"transparent"}}>
                     <div className="col-lg-4 col-md-12 col-6 mb-5" style={{backgroundColor:"transparent"}}>
                         <Description 
-                        imageSrc={Attendence_img} 
+                        imageSrc={Net1} 
                         altText="Wide Network" 
                         title="Wide Network" 
                         content="No matter where you are, we've got you covered."
@@ -78,7 +81,7 @@ const OfferSection = () => {
 
                     <div className="col-lg-4 col-md-12 col-6 mb-5" style={{backgroundColor:"transparent"}}>
                         <Description
-                        imageSrc={software_img} 
+                        imageSrc={Net2} 
                         altText="Unmatched Support" 
                         title="Unmatched Support" 
                         content="Virtual assistance. Talk to us about any concerns, 24/7."
@@ -88,10 +91,57 @@ const OfferSection = () => {
 
                     <div className="col-lg-4 col-md-12 col-6 mb-5" style={{backgroundColor:"transparent"}}>
                         <Description
-                        imageSrc= {optical_img}
+                        imageSrc= {Net3}
                         altText="Beginner-Friendly" 
                         title="Beginner-Friendly" 
                         content="Easy peasy UI. Our interface is simple and easy to use."
+                    
+                        />
+                    </div>
+
+                </div>
+            </div>
+
+            <div className="container mt-0 why-section mb-5 p-5" >
+                <h1
+                    className="text-center mb-5"
+                    style={{
+                    fontSize: "60px",
+                    background: "linear-gradient(to right, darkblue, lightblue)", 
+                    WebkitBackgroundClip: "text",
+                    WebkitTextFillColor: "transparent",
+                    
+                    }}
+                >
+                    What our client says
+                </h1>
+
+                <div className="row g-5 p-5 " style={{backgroundColor:"transparent"}}>
+                    <div className="col-lg-4 col-md-12 col-6 mb-5" style={{backgroundColor:"transparent"}}>
+                        <Description 
+                        imageSrc={Net1} 
+                        altText="Wide Network" 
+                        title="Nadam Saluja" 
+                        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                        />
+                    </div>
+
+                    <div className="col-lg-4 col-md-12 col-6 mb-5" style={{backgroundColor:"transparent"}}>
+                        <Description
+                        imageSrc={Net2} 
+                        altText="Unmatched Support" 
+                        title="Jaya" 
+                        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    
+                        />
+                    </div>
+
+                    <div className="col-lg-4 col-md-12 col-6 mb-5" style={{backgroundColor:"transparent"}}>
+                        <Description
+                        imageSrc= {Net3}
+                        altText="Beginner-Friendly" 
+                        title="Rohit" 
+                        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.."
                     
                         />
                     </div>
